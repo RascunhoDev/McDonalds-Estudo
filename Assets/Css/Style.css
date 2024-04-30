@@ -30,3 +30,44 @@ body .full_width_flex{
     padding-top: 4rem;
 }
 /*Menu Simples*/
+.MenuS{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0.5rem 0.5rem 0.5rem 1rem #0000003b;
+}
+.ItemsMS{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.MenuS div img{
+     width: 5.4rem;
+    height: 5.4rem;
+}
+.ItemsMS a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 300ms ease-out;
+    padding: 0 0.5rem;
+}
+.ItemsMS a:hover{
+    color: #ffbc0d;
+    border-bottom: 0.1rem solid #ffbc0d;
+}
+.MenuS div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+.SInSOut{
+    margin: 0 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: #ffbc0d;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+}
