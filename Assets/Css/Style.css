@@ -34,7 +34,7 @@ body .full_width_flex{
     min-height: 100vh;
 }
 .PaddingMenu{
-    padding-top: 4rem;
+    padding-top: 10rem;
 }
 /*Menu Simples*/
 .MenuS{
@@ -110,4 +110,20 @@ body .full_width_flex{
     border-radius: 10%;
     border: none;
     cursor: pointer;
+}
+/*Home*/
+.TextHome{
+    text-align: center;
+    margin: 0.5rem;
+}
+.GridHome{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(3.2rem,50%));
+}
+.GridHome img{
+    width: 100%;
+    margin: 0.5rem;
+}
+.TextHome h1{
+    font-size:5rem;
 }

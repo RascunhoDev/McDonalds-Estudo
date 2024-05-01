@@ -1,15 +1,15 @@
 Pontos Atrabalhar : 
 Atençao: o Site Deve Star em Ingles  
 ~
-1-Menu Simples []
+1-Menu Simples [X]
 -- Contem a Logo do Mac
 -- As Navegaçoes 
 -- Visual
-2-Seçao 1 []
--- Texto Inicial Do Mac
--- Imagem (pls in SVG) dos Lanches
--- Grid e Organizaçao
--- Visual
+2-Seçao 1 [X]
+-- Texto Inicial Do Mac V
+-- Imagem (pls in SVG) dos Lanches X
+-- Grid e Organizaçao V
+-- Visual V
 3-Seçao 2 []
 -- Imagens das Categorias
 -- Botoes
