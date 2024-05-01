@@ -14,6 +14,13 @@ body{
     font-size: 2rem;
 }
 /*Atributos*/
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
 .AlingContent{
     margin: 0 auto;
     max-width: 120rem;
@@ -35,11 +42,7 @@ body .full_width_flex{
     width: 100%;
     background-color: #fff;
     box-shadow: 0.5rem 0.5rem 0.5rem 1rem #0000003b;
-}
-.ItemsMS{
-    display: flex;
-    align-items: center;
-    list-style: none;
+    z-index: 2;
 }
 .MenuS div img{
      width: 5.4rem;
@@ -64,6 +67,43 @@ body .full_width_flex{
 }
 .SInSOut{
     margin: 0 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: #ffbc0d;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+}
+/*Sing MS*/
+.Sing input{
+    padding: 0.5rem;
+    border-radius: 3%;
+    border: 0.1rem solid #00000010;
+    background-color: #00000005;
+}
+.Sing{
+
+    display: none;
+    
+    left: 30%;
+    margin-top: 10rem;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    border: 0.1rem solid #0000003b;
+    border-radius: 10%;
+    width: 48rem;
+    height: 48rem;
+    z-index: 5;
+    transition: all 300ms ease-out ;
+}
+.Sing img{
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0.5rem;
+}
+.Sing button{
+    margin: 0.5rem;
     padding: 1rem;
     font-weight: bold;
     background-color: #ffbc0d;

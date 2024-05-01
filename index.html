@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="Assets/Css/Style.css">
 </head>
 <body>
+    <form id="SingBlock" class="Sing">
+        <div class="AlingContent">
+            <h2>Login on McDonald's</h2>
+            <label for="Email_Sing">E-Mail: </label><br>
+            <input id="email" type="email" placeholder="exemplo@exemplo.com"><br>
+            <label for="Password_Sing">Password: </label><br>
+            <input id="Password" type="password" placeholder="EX:senha123"><br>
+            <Button onclick="SingFunc()" type="button">Enter</Button>
+            <ul class="LoginOpitions">
+                <li><img src="Assets/Img/GitHub.png" alt="GitHub Logo"></li>
+                <li><img src="Assets/Img/Google.png" alt="Google Logo"></li>
+                <li><img src="Assets/Img/Linkedin.png" alt="Linkedin Logo"></li>
+            </ul>
+        </div>
+    </form>
     <nav class="MenuS">
         <div>
             <img src="Assets/Img/Logo.jpg" alt="Logo Do McDonalds">
@@ -14,7 +29,7 @@
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#Category">Category</a></li>
                 <li><a href="#Promotions">Promotions</a></li>
-                <li><button class="SInSOut">SING IN</button></li>
+                <li><button onclick="document.getElementById('SingBlock').style.display = 'block';" class="SInSOut">SING IN</button></li>
             </ul>
         </div>
     </nav>
