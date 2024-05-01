@@ -29,10 +29,16 @@
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#Category">Category</a></li>
                 <li><a href="#Promotions">Promotions</a></li>
-                <li><button onclick="document.getElementById('SingBlock').style.display = 'block';" class="SInSOut">SING IN</button></li>
+                <li><button id="Smy" onclick="
+                document.getElementById('SingBlock').style.display = 'block';
+                document.getElementById('Smy').innerHTML = 'SING IN';
+                "
+                class="SInSOut">SING IN</button></li>
             </ul>
         </div>
     </nav>
+
+    
     <script src="Assets/JavaScript/Command.js"></script>
 </body>
 </html>
