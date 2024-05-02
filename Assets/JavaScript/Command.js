@@ -14,6 +14,7 @@ function SingFunc(){
     else{
         Password.value = "";
         Email.value = "";
+        document.getElementById('Smy').innerHTML = 'SING OUT'    
         return SingMenu.style.display = "none";
     }
 }
