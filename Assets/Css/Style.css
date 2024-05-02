@@ -84,11 +84,11 @@ body .full_width_flex{
 .Sing{
 
     display: none;
+    position: fixed;
     
     left: 30%;
     margin-top: 10rem;
     background-color: white;
-    position: absolute;
     text-align: center;
     border: 0.1rem solid #0000003b;
     border-radius: 10%;
@@ -110,6 +110,12 @@ body .full_width_flex{
     border-radius: 10%;
     border: none;
     cursor: pointer;
+}
+.Sing .ExitSinSout{
+    font-size: 3rem;
+    padding: 0.2rem 1rem;
+    background: none;
+    margin-bottom: 10%;
 }
 /*Home*/
 .TextHome{
