@@ -133,3 +133,26 @@ body .full_width_flex{
 .TextHome h1{
     font-size:5rem;
 }
+/*Category*/
+.Category{
+    text-align: center;
+}
+.MK{
+    margin-top: 1.5rem;
+    width: 21rem;
+    height: 21rem;
+}
+.itemCategory{
+    cursor: pointer;
+    margin: 1.5rem;
+}
+.itemCategory:hover{
+    transform: scale(1.1);
+}
+.GridCategory{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(3.2rem,50%));
+}
+.Category h2{
+    font-size:4rem;
+}
